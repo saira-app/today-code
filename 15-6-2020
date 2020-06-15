@@ -1,0 +1,12 @@
+math_marks=int(input("enter your math_marks:/n"))
+print(f'{math_marks}')
+phy_marks=int(input("enter your phy_marks:/n"))
+print(f'{phy_marks}')
+chem_marks=int(input("enter your chem_marks"))
+print(f'{chem_marks}')
+avrg=(math_marks+phy_marks+chem_marks)/3
+print(avrg)
+if avrg>65:
+    print("you are eligible for scholarship")
+else: 
+    print("You are not eligible for scholarship")
